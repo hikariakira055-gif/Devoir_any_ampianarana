@@ -1,0 +1,24 @@
+*solve a + b + c + d = e*
+*only with eax and ebx*
+*to save ram*
+
+eax reel
+ebx reel
+DEBUT:
+    AFFICHER("a = ")
+    LIRE(eax)
+    AFFICHER("b = ")
+    LIRE(ebx)
+    eax <- eax + ebx *a + b*
+    ebx <- 0
+    AFFICHER("c = ")
+    LIRE(ebx)
+    eax <- eax + ebx *a + b + c*
+    ebx <- 0
+    AFFICHER("d = ")
+    LIRE(ebx)
+    eax <- eax + ebx *a + b + c + d*
+    ebx <- 0 *free this memory*
+    AFFICHER("e = ")
+    AFFICHER eax
+FIN

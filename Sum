@@ -1,0 +1,12 @@
+*sum of 1 + 2 + ..... n*
+ 
+n reel
+S reel
+
+DEBUT:
+    AFFICHER("n = ")
+    LIRE(n)
+    S <- n * ( n + 1 ) / 2
+    AFFICHER("la somme est : ")
+    AFFICHER save
+FIN
