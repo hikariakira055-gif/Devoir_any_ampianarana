@@ -1,0 +1,16 @@
+*Linear solver*
+*ax + b = 0*
+
+a reel
+b reel
+x reel
+
+DEBUT:
+    AFFICHER("a = ")
+    LIRE(a)
+    AFFICHER("b = ")
+    LIRE(b)
+    x <- -1 * a / b
+    AFFICHER("x = ")
+    AFFICHER x
+END

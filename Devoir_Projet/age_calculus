@@ -1,0 +1,20 @@
+*define the age of the person*
+*with  today date and the birth date*
+
+
+_curren_year reel *years*
+_birth_year_ reel *years*
+age reel
+
+DEBUT:  
+    AFFICHER("Current year : ")
+    LIRE(_curren_year)
+    AFFICHER("The birth year : ")
+    LIRE(_birth_year_)
+
+    age <- _curren_year - _birth_year_
+    AFFICHER("Your age is")
+    AFFICHER age
+END
+
+

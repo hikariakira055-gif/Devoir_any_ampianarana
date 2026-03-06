@@ -1,0 +1,22 @@
+*the form is here a/b : c/x*
+*an the out should be x = ...*
+
+a reel
+b reel
+c reel
+
+x reel
+
+DEBUT:
+    AFFICHER("a = ")
+    LIRE(a)
+    AFFICHER("b = ")
+    LIRE(b)
+    AFFICHER("c = ")
+    LIRE(c)
+
+    x <- c * b / a
+
+    AFFICHER("the value of x is ")
+    AFFICHER x
+END

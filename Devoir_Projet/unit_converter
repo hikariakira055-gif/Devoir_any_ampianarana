@@ -1,0 +1,13 @@
+*unit_converter*
+*km  --> m*
+
+pre_convertion reel
+post_convertion reel
+
+DEBUT:
+    AFFICHER("Entree la distance en km : ")
+    LIRE(pre_convertion)
+    post_convertion <- pre_convertion * 1000
+    AFFICHER("La distance en m est ")
+    AFFICHER post_convertion
+FIN

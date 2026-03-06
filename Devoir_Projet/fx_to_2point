@@ -1,0 +1,24 @@
+*this one prompt 2 points*
+*for example y = x*
+*A(0, 0) and B(1, 1)*
+*only linear equation*
+*the two default x point is 1 and 5*
+a reel
+b reel
+y reel
+y1 reel
+
+DEBUT:
+    AFFICHER("a = ")
+    LIRE(a)
+    AFFICHER("b = ")
+    LIRE(b)
+    y <- a * 1 + b  *x = 1*
+    y1 <- a * 5 + b  *x = 5*
+
+    AFFICHER("for x = 1,  y = ")
+    AFFICHER y
+    AFFICHER("for x = 5, y = ")
+    AFFICHER y1
+FIN
+

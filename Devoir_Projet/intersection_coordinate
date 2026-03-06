@@ -1,0 +1,33 @@
+*a ax + b and a a1x + b1*
+
+*ther is a intersection when y=y'*
+
+a1 reel
+b1 reel
+
+a2 reel
+b2 reel
+
+x_coordinate reel
+y_coordinate reel
+
+DEBUT:
+    AFFICHER("A1 = ")
+    LIRE(a1)
+    AFFICHER("B1 = ")
+    LIRE(b1)
+
+    AFFICHER("A2 = ")
+    LIRE(a2)
+    AFFICHER("B2 = ")
+    LIRE(b2)
+
+    x_coordinate <- (b2 - b1) / (a1 -a2)
+    y_coordinate <- a1 * x_coordinate + b1
+
+    AFFICHER("Le point X de l'intersection est : ")
+    AFFICHER x_coordinate
+    AFFICHER("Le point Y de l'intersection est : ")
+    AFFICHER y_coordinate
+    
+FIN

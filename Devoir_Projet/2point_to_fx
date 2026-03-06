@@ -1,0 +1,33 @@
+*this one is the inverse of the fx_to_2point*
+*convert 2 points to a function*
+*in reallity the a and b of ax + b*
+
+xa reel
+ya reel
+                *input of the ... not programmer*
+xb reel
+yb reel
+
+a reel
+b reel
+
+DEBUT:
+    AFFICHER("Xa = ") *point A*
+    LIRE(xa)
+    AFFICHER("Ya = ")
+    LIRE(ya)
+
+    AFFICHER("Xb = ")
+    LIRE(xb)
+    AFFICHER("Yb = ")
+    LIRE(yb)
+
+    a <- (yb - ya) / (xb - xa)
+
+    b <- ya - a * xa
+    AFFICHER("The value of a is ")
+    AFFICHER a
+    AFFICHER("The value of b is ")
+    AFFICHER b
+    AFFICHER("the function is yet ax + b")
+

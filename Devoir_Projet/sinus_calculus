@@ -1,0 +1,22 @@
+*
+*     |\
+* b   | \  hyp (c)
+*     |  \
+*     +___*
+*       a
+
+opp reel
+hyp reel
+sin_x 
+
+DEBUT:
+    AFFICHER("The opposit : ")
+    LIRE(opp)
+    AFFICHER("The hypotenus : ")
+    LIRE(hyp)
+
+    sin_x <- opp / hyp
+    AFFICHER("The sinus is ")
+    AFFICHER sin_x
+FIN
+
